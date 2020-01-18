@@ -2,72 +2,135 @@
 __author__ = "wukan"
 
 from airtest.core.api import *
+
 auto_setup(__file__)
-for _iter in range(4):
-    touch(wait(Template(r"tpl1576848245799.png", record_pos=(0.12, -0.069), resolution=(2520, 1080)),timeout=60))
-    sleep()
 
-    v=exists(Template(r"tpl1576851873721.png", record_pos=(-0.093, -0.02), resolution=(2520, 1080)))
-    if v != False:
-        touch(v)
-        touch(wait(Template(r"tpl1576851988180.png", record_pos=(0.064, 0.12), resolution=(2520, 1080)))) # 恰苹果
+while True:
+    wait(Template(r"tpl1579022845429.png", record_pos=(0.171, 0.016), resolution=(1280, 720)),timeout=60)
+    sleep(3)
+    touch(wait(Template(r"tpl1579022845429.png", record_pos=(0.171, 0.016), resolution=(1280, 720)),timeout=60))
+    for _i in range(2):
+        sleep(3)
+        if exists(Template(r"tpl1578909534608.png", record_pos=(-0.206, -0.025), resolution=(2520, 1080))):
+            touch(wait(Template(r"tpl1578909534608.png", record_pos=(-0.206, -0.025), resolution=(2520, 1080))))
+            touch(wait(Template(r"tpl1578909613574.png", record_pos=(0.066, 0.116), resolution=(2520, 1080))))
+            break
+    while not exists(Template(r"tpl1579023096324.png", record_pos=(-0.113, 0.104), resolution=(1280, 720))):
+        sleep(10)
+        if exists(Template(r"tpl1579023096324.png", record_pos=(-0.113, 0.104), resolution=(1280, 720))):
+            break
+        touch(wait(Template(r"tpl1579023156387.png", record_pos=(0.166, -0.18), resolution=(1280, 720))))
+        sleep(3)
+        touch(wait(Template(r"tpl1579023184729.png", record_pos=(0.155, 0.158), resolution=(1280, 720))))
+    sleep(3)
+    touch(wait(Template(r"tpl1579023096324.png", record_pos=(-0.113, 0.104), resolution=(1280, 720))))
+    sleep(3)
+    touch(wait(Template(r"tpl1578911889234.png", record_pos=(0.254, 0.184), resolution=(2520, 1080))))
+    sleep(3)
+    touch(wait(Template(r"tpl1579337042218.png", record_pos=(-0.052, 0.17), resolution=(1280, 720)),timeout=60))
+    sleep(3)
+    touch(wait(Template(r"tpl1578906667025.png", record_pos=(0.075, 0.036), resolution=(2520, 1080))))
+    sleep(3)
+    touch(wait(Template(r"tpl1578907166241.png", record_pos=(0.237, 0.139), resolution=(2520, 1080))))
+    sleep(3)
+    touch(wait(Template(r"tpl1578907961313.png", record_pos=(-0.048, -0.056), resolution=(2520, 1080))))
+    for _i in range(2):
+        sleep(3)
+        touch(wait(Template(r"tpl1578908898365.png", record_pos=(0.121, 0.123), resolution=(2520, 1080))))
+    sleep(3)
+    for _i in range(2):
+        while not exists(Template(r"tpl1578906667025.png", record_pos=(0.075, 0.036), resolution=(2520, 1080))):
+            sleep(3)
+            touch(wait(Template(r"tpl1579336297699.png", record_pos=(0.196, 0.17), resolution=(1280, 720)),timeout=60))
 
-    touch(wait(Template(r"tpl1576848308190.png", record_pos=(0.242, -0.027), resolution=(2520, 1080))))
-    touch(wait(Template(r"tpl1576848397065.png", record_pos=(0.278, 0.19), resolution=(2520, 1080))))
+    sleep(3)
+    touch(wait(Template(r"tpl1578906667025.png", record_pos=(0.075, 0.036), resolution=(2520, 1080))))
+    for _i in range(2):
+        sleep(3)
+        touch(wait(Template(r"tpl1579336455044.png", record_pos=(-0.446, 0.172), resolution=(1280, 720))))
+        sleep(3)
+        touch(wait(Template(r"tpl1578906667025.png", record_pos=(0.075, 0.036), resolution=(2520, 1080))))
+        sleep(3)
+        touch(wait(Template(r"tpl1578906713849.png", record_pos=(0.132, 0.009), resolution=(2520, 1080))))
+        sleep(3)
+        touch(wait(Template(r"tpl1579336616307.png", record_pos=(-0.37, 0.17), resolution=(1280, 720))))
+        sleep(3)
+        touch(wait(Template(r"tpl1578906667025.png", record_pos=(0.075, 0.036), resolution=(2520, 1080))))
+        sleep(3)
+        touch(wait(Template(r"tpl1579336572428.png", record_pos=(-0.298, 0.17), resolution=(1280, 720))))
+        sleep(3)
+        touch(wait(Template(r"tpl1578906667025.png", record_pos=(0.075, 0.036), resolution=(2520, 1080))))
+    sleep(3)
+    touch(wait(Template(r"tpl1579024428359.png", record_pos=(0.43, -0.031), resolution=(1280, 720))))
+    sleep(3)
+    touch(wait(Template(r"tpl1579336572428.png", record_pos=(-0.298, 0.17), resolution=(1280, 720))))
+    sleep(3)
+    touch(wait(Template(r"tpl1578906667025.png", record_pos=(0.075, 0.036), resolution=(2520, 1080))))
+    sleep(3)
+    touch(wait(Template(r"tpl1578907166241.png", record_pos=(0.237, 0.139), resolution=(2520, 1080))))
+    sleep(3)
+    touch(wait(Template(r"tpl1578907205113.png", record_pos=(0.091, -0.063), resolution=(2520, 1080))))
+    for _i in range(2):
+        sleep(3)
+        touch(wait(Template(r"tpl1578908898365.png", record_pos=(0.121, 0.123), resolution=(2520, 1080))))
+    sleep(3)
+    for _i in range(2):
+        while not exists(Template(r"tpl1578906667025.png", record_pos=(0.075, 0.036), resolution=(2520, 1080))):
+            sleep(3)
+            touch(wait(Template(r"tpl1579336679394.png", record_pos=(0.123, 0.172), resolution=(1280, 720)),timeout=60))
+    sleep(3)
+    touch(wait(Template(r"tpl1578906667025.png", record_pos=(0.075, 0.036), resolution=(2520, 1080))))
+    sleep(3)
+    touch(wait(Template(r"tpl1579024428359.png", record_pos=(0.43, -0.031), resolution=(1280, 720))))
 
-    wait(Template(r"tpl1576850638587.png", record_pos=(0.242, 0.142), resolution=(2520, 1080)),timeout=60) # 等待攻击界面加载完成
+    sleep(3)
+    touch(wait(Template(r"tpl1579336656280.png", record_pos=(0.345, -0.042), resolution=(1280, 720))))
+    sleep(3)
+    touch(wait(Template(r"tpl1578906667025.png", record_pos=(0.075, 0.036), resolution=(2520, 1080))))
+    sleep(3)
+    touch(wait(Template(r"tpl1579026213745.png", record_pos=(-0.234, -0.006), resolution=(1280, 720))))
+    sleep(3)
+    touch(wait(Template(r"tpl1579024542705.png", record_pos=(0.073, -0.001), resolution=(1280, 720))))
+    sleep(3)
+    touch(wait(Template(r"tpl1578907025095.png", record_pos=(-0.051, 0.156), resolution=(2520, 1080))))
+    sleep(3)
+    
+    touch(wait(Template(r"tpl1579337042218.png", record_pos=(-0.052, 0.17), resolution=(1280, 720)),timeout=60))
+    sleep(3)
+    touch(wait(Template(r"tpl1578906667025.png", record_pos=(0.075, 0.036), resolution=(2520, 1080))))
+    sleep(3)
+    touch(wait(Template(r"tpl1578906713849.png", record_pos=(0.132, 0.009), resolution=(2520, 1080))))
+    sleep(3)
+    touch(wait(Template(r"tpl1578908558247.png", record_pos=(-0.332, 0.125), resolution=(2520, 1080)),timeout=60))
+    sleep(3)
+    touch(wait(Template(r"tpl1578906667025.png", record_pos=(0.075, 0.036), resolution=(2520, 1080))))
+    sleep(3)
+    
+    touch(wait(Template(r"tpl1578907166241.png", record_pos=(0.237, 0.139), resolution=(2520, 1080))))
+    sleep(3)
+    touch(wait(Template(r"tpl1578907205113.png", record_pos=(0.091, -0.063), resolution=(2520, 1080))))
+    for _i in range(2):
+        sleep(3)
+        touch(wait(Template(r"tpl1578908898365.png", record_pos=(0.121, 0.123), resolution=(2520, 1080))))
 
-    touch(v=(400,900)) # 艾蕾2技能
-    touch(wait(Template(r"tpl1576850738968.png", record_pos=(0.075, 0.038), resolution=(2520, 1080))))
-
-
-    touch(wait(Template(r"tpl1576850905314.png", record_pos=(-0.276, 0.127), resolution=(2520, 1080)))) # 艾蕾3技能
-    touch(wait(Template(r"tpl1576850738968.png", record_pos=(0.075, 0.038), resolution=(2520, 1080))))
-
-    touch(wait(Template(r"tpl1576852106640.png", record_pos=(-0.012, 0.127), resolution=(2520, 1080)))) # 弓凛1技能
-    touch(wait(Template(r"tpl1576850738968.png", record_pos=(0.075, 0.038), resolution=(2520, 1080))))
-
-
-
-    touch(wait(Template(r"tpl1576850638587.png", record_pos=(0.242, 0.142), resolution=(2520, 1080))))
-    touch(wait(Template(r"tpl1576853632199.png", record_pos=(-0.18, -0.056), resolution=(2520, 1080))))
-    sleep()
-    touch(v=(350,900)) # 指令卡1
-    sleep()
-    touch(v=(750,900)) # 指令卡2
-    sleep()
-    snapshot(msg="艾蕾宝具动画")
-
-
-    wait(Template(r"tpl1576850638587.png", record_pos=(0.242, 0.142), resolution=(2520, 1080)),timeout=60) # 等待攻击界面加载完成
-    touch(v=(750,900)) # 小莫1技能
-    touch(wait(Template(r"tpl1576850738968.png", record_pos=(0.075, 0.038), resolution=(2520, 1080))))
-    touch(wait(Template(r"tpl1576851280803.png", record_pos=(-0.088, 0.127), resolution=(2520, 1080)))) # 小莫3技能
-    touch(wait(Template(r"tpl1576850738968.png", record_pos=(0.075, 0.038), resolution=(2520, 1080))))
-
-    touch(wait(Template(r"tpl1576851330274.png", record_pos=(0.099, 0.129), resolution=(2520, 1080)))) # 弓凛3技能
-    touch(wait(Template(r"tpl1576850738968.png", record_pos=(0.075, 0.038), resolution=(2520, 1080))))
-    touch(wait(Template(r"tpl1576850638587.png", record_pos=(0.242, 0.142), resolution=(2520, 1080))))
-
-    touch(wait(Template(r"tpl1576853955975.png", record_pos=(-0.052, -0.052), resolution=(2520, 1080))))
-    sleep()
-    touch(v=(350,900)) # 指令卡1
-    sleep()
-    touch(v=(750,900)) # 指令卡2
-    sleep()
-    snapshot(msg="小莫宝具动画")
-
-    touch(wait(Template(r"tpl1576851569748.png", record_pos=(0.043, 0.129), resolution=(2520, 1080)),timeout=60)) # 弓凛2技能
-    touch(wait(Template(r"tpl1576850738968.png", record_pos=(0.075, 0.038), resolution=(2520, 1080))))
-    touch(wait(Template(r"tpl1576850638587.png", record_pos=(0.242, 0.142), resolution=(2520, 1080))))
-    touch(wait(Template(r"tpl1576854091829.png", record_pos=(0.092, -0.056), resolution=(2520, 1080))))
-    sleep()
-    touch(v=(350,900)) # 指令卡1
-    sleep()
-    touch(v=(750,900)) # 指令卡2
-    sleep()
-    snapshot(msg="弓凛宝具动画")
-
-    touch(wait(Template(r"tpl1576850295381.png", record_pos=(-0.053, 0.168), resolution=(2520, 1080)),timeout=60)) # 从者经验值界面
-    touch(wait(Template(r"tpl1576850295381.png", record_pos=(-0.053, 0.168), resolution=(2520, 1080)))) # 御主经验值界面
-    touch(wait(Template(r"tpl1576850387830.png", record_pos=(0.225, 0.188), resolution=(2520, 1080)))) # QP界面
+    while not exists(Template(r"tpl1578909199900.png", record_pos=(-0.051, 0.171), resolution=(2520, 1080))):
+        sleep(10)
+        if exists(Template(r"tpl1578909199900.png", record_pos=(-0.051, 0.171), resolution=(2520, 1080))):
+            break
+        if exists(Template(r"tpl1578907166241.png", record_pos=(0.237, 0.139), resolution=(2520, 1080))):
+            sleep(60)
+            
+            touch(wait(Template(r"tpl1578907166241.png", record_pos=(0.237, 0.139), resolution=(2520, 1080))))
+            for _i in range(3):
+                sleep(3)
+                touch(wait(Template(r"tpl1578908898365.png", record_pos=(0.121, 0.123), resolution=(2520, 1080))))
+    while not exists(Template(r"tpl1578908151840.png", record_pos=(0.226, 0.185), resolution=(2520, 1080))):
+        sleep(3)
+        if exists(Template(r"tpl1578909199900.png", record_pos=(-0.051, 0.171), resolution=(2520, 1080))):
+            touch(wait(Template(r"tpl1578909199900.png", record_pos=(-0.051, 0.171), resolution=(2520, 1080))))
+    touch(wait(Template(r"tpl1578908151840.png", record_pos=(0.226, 0.185), resolution=(2520, 1080))))
+    for _i in range(3):
+        sleep(3)
+        if exists(Template(r"tpl1578908209107.png", record_pos=(-0.235, 0.149), resolution=(2520, 1080))):
+            touch(wait(Template(r"tpl1578908209107.png", record_pos=(-0.235, 0.149), resolution=(2520, 1080))))
+            break
