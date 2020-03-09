@@ -1,5 +1,8 @@
 # FGO-AirTester.air
 
-圣诞四期无限池抽取脚本，单次只抽取八池防止邮箱溢出。
+自动抽取友情池脚本，需要：
 
-完整测试视频地址：<https://www.bilibili.com/video/av84488554/>
+- 将 MuMu 模拟器的分辨率调到 1280\*720。
+- 建议配合自动变还食用
+
+完整测试视频地址：<https://www.bilibili.com/video/av94917683/>
