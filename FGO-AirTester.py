@@ -5,15 +5,14 @@ from airtest.core.api import *
 
 auto_setup(__file__)
 
-for _i in range(8):
-    for _i in range(32):
-        sleep(2.4)
-        touch([450, 450])
-    while not exists(Template(r"tpl1579452354002.png", record_pos=(0.387, -0.088), resolution=(1280, 720))):
-        sleep(2.4)
-        touch([450, 450])
-    touch(wait(Template(r"tpl1579452354002.png", record_pos=(
-        0.387, -0.088), resolution=(1280, 720))))
-    for _i in range(2):
-        sleep(2.4)
-        touch([750, 580])
+while(True):
+    for i in range(4):
+        for j in range(7):
+            sleep(0.2)
+            touch([j*130+140,i*130+250])
+    sleep()
+    touch(wait(Template(r"tpl1583716275273.png", record_pos=(0.402, 0.241), resolution=(1280, 720))))
+    sleep()
+    touch(wait(Template(r"tpl1583716252169.png", record_pos=(0.155, 0.176), resolution=(1280, 720))))
+    sleep()
+    touch(wait(Template(r"tpl1583716162753.png", record_pos=(0.002, 0.177), resolution=(1280, 720))))
