@@ -15,4 +15,4 @@ while(True):
             sleep(0.2),touch([j*130+140,i*130+250])
     sleep(3),touch(wait(Template(r"tpl1583716275273.png", record_pos=(0.402, 0.241), resolution=(1280, 720))))
     sleep(3),touch(wait(Template(r"tpl1589881387545.png", record_pos=(0.362, 0.248), resolution=(1280, 720))))
-    sleep(3),touch(wait(Template(r"tpl1583716275273.png", record_pos=(0.402, 0.241), resolution=(1280, 720))))
+    sleep(3),touch(wait(Template(r"tpl1589886761355.png", record_pos=(0.158, 0.18), resolution=(1280, 720))))
