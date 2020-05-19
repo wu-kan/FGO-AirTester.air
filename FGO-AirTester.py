@@ -31,7 +31,7 @@ def wk_huanren():
 
     
     sleep(3),touch(wait(Template(r"tpl1579336656280.png", record_pos=(0.345, -0.042), resolution=(1280, 720))))
-    sleep(3),touch(wait(Template(r"tpl1589877029335.png", record_pos=(-0.391, 0.009), resolution=(1280, 720))))
+    sleep(3),touch(wait(Template(r"tpl1589889389828.png", record_pos=(-0.391, 0.006), resolution=(1280, 720))))
     sleep(3),touch(wait(Template(r"tpl1589877073689.png", record_pos=(0.388, 0.002), resolution=(1280, 720))))
     sleep(3),touch(wait(Template(r"tpl1578907025095.png", record_pos=(-0.051, 0.156), resolution=(2520, 1080))))
     return
@@ -77,8 +77,8 @@ while True:
     wk_fuben()
     wk_pingguo()
     wk_zhuzhan()
-    sleep(3),touch(wait(Template(r"tpl1578908558247.png", record_pos=(-0.332, 0.125), resolution=(2520, 1080)),timeout=60))
-    sleep(3),touch(wait(Template(r"tpl1589876861313.png", record_pos=(-0.445, 0.17), resolution=(1280, 720))))
+    sleep(3),touch(wait(Template(r"tpl1589876861313.png", record_pos=(-0.445, 0.17), resolution=(1280, 720)),timeout=60))
+    sleep(3),touch(wait(Template(r"tpl1589889071443.png", record_pos=(-0.373, 0.17), resolution=(1280, 720))))
     
     wk_huanren()
     sleep(3),touch(wait(Template(r"tpl1579024428359.png", record_pos=(0.43, -0.031), resolution=(1280, 720))))
