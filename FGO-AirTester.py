@@ -6,8 +6,8 @@ from airtest.core.api import *
 auto_setup(__file__)
 
 def wk_fuben():
-    wait(Template(r"tpl1579022845429.png", record_pos=(0.171, 0.016), resolution=(1280, 720)),timeout=60)
-    sleep(3),touch(wait(Template(r"tpl1579022845429.png", record_pos=(0.171, 0.016), resolution=(1280, 720)),timeout=60))
+    wait(Template(r"tpl1590311341656.png", record_pos=(0.191, -0.163), resolution=(1280, 720)),timeout=60)
+    sleep(3),touch(wait(Template(r"tpl1590311341656.png", record_pos=(0.191, -0.163), resolution=(1280, 720)),timeout=60))
     return
 
 
@@ -52,7 +52,7 @@ def wk_pingguo():
 
 def wk_finish():
     while not exists(Template(r"tpl1578909199900.png", record_pos=(-0.051, 0.171), resolution=(2520, 1080))):
-        sleep(10)
+        sleep(60)
         if exists(Template(r"tpl1578909199900.png", record_pos=(-0.051, 0.171), resolution=(2520, 1080))):
             break
         for _iter in range(3):
