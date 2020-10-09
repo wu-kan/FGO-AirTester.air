@@ -35,7 +35,10 @@ while True:
     for _i in range(2):
         sleep(3), touch(wait(Template(r"tpl1589878497737.png",
                                       record_pos=(-0.167, 0.166), resolution=(1280, 720))))
-    while not exists(Template(r"tpl1589877321730.png", record_pos=(0.002, -0.125), resolution=(1280, 720))):
+    while not exists(Template(r"tpl1602234548578.png", record_pos=(0.114, -0.132), resolution=(1280, 720))):
+        sleep(3)
+        if exists(Template(r"tpl1602234548578.png", record_pos=(0.114, -0.132), resolution=(1280, 720))):
+            break
         sleep(3), touch(wait(Template(r"tpl1600696910381.png",
                                       record_pos=(-0.199, 0.17), resolution=(1280, 720)), timeout=60))
     sleep(3), touch(wait(Template(r"tpl1600696705407.png", record_pos=(
@@ -57,14 +60,21 @@ while True:
                                   record_pos=(0.237, -0.012), resolution=(1280, 720))))
     sleep(3), touch(wait(Template(r"tpl1578907025095.png",
                                   record_pos=(-0.051, 0.156), resolution=(2520, 1080))))
+    sleep(9)
     for _i in range(2):
-        while not exists(Template(r"tpl1589877321730.png", record_pos=(0.002, -0.125), resolution=(1280, 720))):
+        while not exists(Template(r"tpl1602234548578.png", record_pos=(0.114, -0.132), resolution=(1280, 720))):
+            sleep(3)
+            if exists(Template(r"tpl1602234548578.png", record_pos=(0.114, -0.132), resolution=(1280, 720))):
+                break
             sleep(3), touch(wait(Template(r"tpl1600698375064.png",
                                           record_pos=(-0.197, 0.171), resolution=(1280, 720))))
         sleep(3), touch(wait(Template(r"tpl1600696705407.png", record_pos=(
             0.277, 0.034), resolution=(1280, 720)), timeout=60))
 
-    while not exists(Template(r"tpl1589877321730.png", record_pos=(0.002, -0.125), resolution=(1280, 720))):
+    while not exists(Template(r"tpl1602234548578.png", record_pos=(0.114, -0.132), resolution=(1280, 720))):
+        sleep(3)
+        if exists(Template(r"tpl1602234548578.png", record_pos=(0.114, -0.132), resolution=(1280, 720))):
+            break
         sleep(3), touch(wait(Template(r"tpl1600698514070.png",
                                       record_pos=(-0.295, 0.171), resolution=(1280, 720))))
     sleep(3), touch(wait(Template(r"tpl1600696705407.png", record_pos=(
@@ -83,8 +93,12 @@ while True:
     for _i in range(2):
         sleep(3), touch(wait(Template(r"tpl1600698778724.png",
                                       record_pos=(-0.123, 0.168), resolution=(1280, 720))))
-    while not exists(Template(r"tpl1589877321730.png", record_pos=(0.002, -0.125), resolution=(1280, 720))):
-        sleep(3), touch(wait(Template(r"tpl1600698514070.png",
+    sleep(3)
+    while not exists(Template(r"tpl1602234548578.png", record_pos=(0.114, -0.132), resolution=(1280, 720))):
+        sleep(3)
+        if exists(Template(r"tpl1602234548578.png", record_pos=(0.114, -0.132), resolution=(1280, 720))):
+            break
+        sleep(6), touch(wait(Template(r"tpl1600698514070.png",
                                       record_pos=(-0.295, 0.171), resolution=(1280, 720))))
     sleep(3), touch(wait(Template(r"tpl1600696705407.png", record_pos=(
         0.277, 0.034), resolution=(1280, 720)), timeout=60))
