@@ -6,16 +6,16 @@ auto_setup(__file__)
 
 def wk_pingguo():
     sleep(3)
-    if exists(Template(r"tpl1589874657349.png", record_pos=(-0.208, 0.089), resolution=(1280, 720))):
-        sleep(3), touch(wait(Template(r"tpl1589874657349.png",
-                                      record_pos=(-0.208, 0.089), resolution=(1280, 720))))
+    if exists(Template(r"tpl1589874715811.png", record_pos=(-0.207, -0.031), resolution=(1280, 720))):
+        sleep(3), touch(wait(Template(r"tpl1589874715811.png",
+                                      record_pos=(-0.207, -0.031), resolution=(1280, 720))))
         sleep(3), touch(wait(Template(r"tpl1578909613574.png",
                                       record_pos=(0.066, 0.116), resolution=(2520, 1080))))
         return True
     sleep(3)
-    if exists(Template(r"tpl1589874715811.png", record_pos=(-0.207, -0.031), resolution=(1280, 720))):
-        sleep(3), touch(wait(Template(r"tpl1589874715811.png",
-                                      record_pos=(-0.207, -0.031), resolution=(1280, 720))))
+    if exists(Template(r"tpl1589874657349.png", record_pos=(-0.208, 0.089), resolution=(1280, 720))):
+        sleep(3), touch(wait(Template(r"tpl1589874657349.png",
+                                      record_pos=(-0.208, 0.089), resolution=(1280, 720))))
         sleep(3), touch(wait(Template(r"tpl1578909613574.png",
                                       record_pos=(0.066, 0.116), resolution=(2520, 1080))))
         return True
